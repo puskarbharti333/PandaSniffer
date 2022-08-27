@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pbharti.r64sniffer">
+    <queries>
+        <package android:name="com.whatsapp"/>
+        <package android:name="com.google.android.apps.tachyon"/>
+        <package android:name="com.facebook.mlite"/>
+        <package android:name="org.thoughtcrime.securesms"/>
+        <package android:name="org.telegram.messenger"/>
+        <package android:name="com.instagram.android"/>
+        <package android:name="com.facebook.orca"/>
+    </queries>
+
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:name=".NetWatcherApp"
+        android:allowBackup="true"
+        android:exported="false"
+        android:icon="@drawable/icon144"
+        android:label="@string/app_name"
+        android:persistent="true"
+        android:roundIcon="@drawable/icon144_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".g" />
+        <activity
+            android:name=".MainActivity2">
+        </activity>
+        <activity
+            android:name=".NotificationReceiver"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

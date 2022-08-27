@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "175614604625",
+    "project_id": "root64sniffer",
+    "storage_bucket": "root64sniffer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175614604625:android:82f150768527ae1692cf70",
+        "android_client_info": {
+          "package_name": "com.pbharti.r64sniffer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175614604625-o2rf5rvsu93de0h49ihptej1t6dkkj3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwXoyLlTBJKuRDGjLw-wRFQJOYdhG35cQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175614604625-o2rf5rvsu93de0h49ihptej1t6dkkj3o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

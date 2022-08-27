@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: C./Users/puska/Desktop/Temp 05-05-2022/NetCloud_android/app/libs/netcore-release.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/323d4049bfd3d8ce24080b8ef0f76e11/jetified-netcore-release/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/323d4049bfd3d8ce24080b8ef0f76e11/jetified-netcore-release/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/323d4049bfd3d8ce24080b8ef0f76e11/jetified-netcore-release/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
