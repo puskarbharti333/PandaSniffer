@@ -1,5 +1,5 @@
 # PandaSniffer
-## Panda Sniffer is an open source app which lets we monitor andexport thenetwork traffic of wer device. The app simulates a VPN to achieve non-rootcapture but, contrary to a VPN, the traffic is processed locally into thedevice. 
+## Panda Sniffer is an open source app which lets we monitor andexport thenetwork traffic of wer device. The app simulates a VPN to achieve non-rootcapture but, contrary to a VPN, the traffic is processed locally into the device. 
 ### Features: 
 ### Log and examine the connections made by user and systemapps
 ### Extract the SNI, DNS query, HTTP request, HTTP URL and the remoteIPaddress
